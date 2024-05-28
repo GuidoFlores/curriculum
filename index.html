@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <meta name="keywords" content="curriculum, Guido Flores, guido flores ">
-    <meta name="description" content="Esta página tiene mi curriculum">
+    <meta name="keywords" content="curriculum, Guido Flores, Desarrollador web, html, css, python, java,  ">
+    <meta name="description"
+        content="Curriculum de Guido Flores, Estudiante en busca de oportunidad laboral en el sector tecnológico ">
     <meta name="author" content="Guido Flores">
     <link rel="stylesheet" href="stylesheets/style.css">
     <title>Currículum Vitae</title>
@@ -16,90 +17,89 @@
     <header>
         <h1>Currículum Vitae</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Educación</a></li>
-            <li><a href="#">Experiencia</a></li>
-            <li><a href="#">Habilidades</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
+
+    <section id="contenedor-foto">
+        <img src="Imagenes/Foto.png">
+    </section>
+
+
+    <section id="navegador">
+        <h2>Navegación</h2>
+        <nav>
+            <ul>
+                <li><a href="#informacion-personal">Inicio</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+            </ul>
+        </nav>
+    </section>
+
+
+
+
     <section id="informacion-personal">
         <h2>Información personal</h2>
         <p>
-            Nombre: <span>Juan Pérez</span>
+            Nombre: <span>Guido Flores</span>
         </p>
         <p>
-            Dirección: <span>Calle 123, Ciudad</span>
+            Dirección: <span>Guayaquil, Ecuador</span>
         </p>
         <p>
-            Teléfono: <span>+52 123 456 7890</span>
+            Teléfono: <span>+593 99......69</span>
         </p>
         <p>
-            Correo electrónico: <span>juan.perez@example.com</span>
-        </p>
-        <p>
-            LinkedIn: <a href="https://www.linkedin.com/in/your-name">LinkedIn</a>
+            Correo electrónico: <span>gjflores@espol.edu.ec</span>
         </p>
     </section>
+
     <section id="educacion">
         <h2>Educación</h2>
         <p>
-            Grado: <span>Licenciatura en Informática</span>
+            Grado: <span>Ingeniería en computación</span>
         </p>
         <p>
-            Institución: <span>Universidad Nacional Autónoma de México</span>
+            Institución: <span>Escuela Superior Politécnica Del Litoral</span>
         </p>
         <p>
-            Fechas: <span>2020 - 2023</span>
+            Fechas: <span>2021 - Actualidad</span>
         </p>
     </section>
     <section id="experiencia">
-        <h2>Experiencia</p>
-            <p>
-                Cargo: <span>Desarrollador de software</span>
-            </p>
-            <p>
-                Empresa: <span>Google</span>
-            </p>
-            <p>
-                Fechas: <span>2023 - Presente</span>
-            </p>
-            <p>
-                Descripción:
-            <ul>
-                <li>Desarrollo de aplicaciones web</li>
-                <li>Mantenimiento de sistemas</li>
-                <li>Trabajo en equipo</li>
-            </ul>
-            </p>
+        <h2>Experiencia</h2>
+        <p>
+            Cargo: <span>Desarrollador de software</span>
+        </p>
+        <p>
+            Empresa: <span>ESPOL</span>
+        </p>
+        <p>
+            Fechas: <span>2023 - Actualidad</span>
+        </p>
+        <p>
+            Descripción:
+        <ul>
+            <li>Desarrollo de aplicaciones web</li>
+            <li>Mantenimiento de sistemas</li>
+            <li>Trabajo en equipo</li>
+        </ul>
+        </p>
     </section>
     <section id="habilidades">
         <h2>Habilidades</h2>
         <ul>
-            <li>Lenguajes de programación: Python, JavaScript, Java</li>
-            <li>Bases de datos: MySQL, PostgreSQL</li>
+            <li>Lenguajes de programación: Python, Java, JavaScript</li>
+            <li>Bases de datos: MySQL</li>
             <li>Herramientas de desarrollo: Visual Studio Code, Git</li>
-            <li>Otros: Inglés, Portugués</li>
+            <li>Otros: Inglés</li>
             <li>Desarrollo web</li>
             <li>Diseño web</li>
             <li>Mantenimiento de sitios web</li>
         </ul>
-
-        <ol>
-            <li>2019 - 2022</li>
-            <li>Desarrollador web</li>
-            <li>Acme Corporation</li>
-        </ol>
     </section>
 
-    <video width="320" height="240" controls>
-        <source src="ruta/a/tu/video.mp4" type="video/mp4">
-        Tu navegador no soporta el elemento de video.
-    </video>
-
-    <div class="section">
+    <section id="experiencia-laboral">
         <h2>Experiencia laboral</h2>
         <p>
             Trabajé como desarrollador web en Acme Corporation durante los últimos
@@ -107,17 +107,9 @@
             Mis responsabilidades incluían el diseño, desarrollo y mantenimiento
             de sitios web.
         </p>
-    </div>
-    <span class="highlight">Este es un título</span>
+    </section>
 
-    <p>
-        Trabajé como desarrollador web en Acme Corporation durante los últimos
-        tres años.
-        Mis responsabilidades incluían el diseño, desarrollo y mantenimiento de
-        sitios web.
-    </p>
-
-    <table border="1">
+    <!--table border="1">
         <thead>
             <tr>
                 <th>Empresa</th>
@@ -132,37 +124,60 @@
                 <td>3</td>
             </tr>
         </tbody>
-    </table>
+    </table-->
 
-    <h2>Danos tu opinión</h2>
-    <form action="mailto:tucorreo@ejemplo.com" method="post" enctype="text/plain">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required><br><br>
+    <section id="formulario">
+        <h2>Danos tu opinión</h2>
+        <form action="mailto:tucorreo@ejemplo.com" method="post" enctype="text/plain">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
 
-        <label for="correo">Correo Electrónico:</label>
-        <input type="email" id="correo" name="correo" required><br><br>
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required><br><br>
 
-        <label for="asunto">Asunto:</label>
-        <input type="text" id="asunto" name="asunto" required><br><br>
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" required><br><br>
 
-        <label for="mensaje">Mensaje:</label><br>
-        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
 
-        <input type="submit" value="Enviar">
-    </form>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
 
-    <img src="https://placehold.co/600x400?text=Hello+World" alt="Esta es una imagen de prueba">
+    <section id="referencias">
+        <h2>Referencias</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0151653790826!2d-79.96714432409641!
+            3d-2.1478801978330138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7303bb0133cd%3A0x66c18bd9810f31cb!2sFacultad%20de%
+            20Ingenier%C3%ADa%20en%20Electricidad%20y%20Computaci%C3%B3n%20FIEC%20-%20ESPOL!5e0!3m2!1ses-419!2sec!4v1716858484588!5m2!1ses-419!2sec"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-    <h2>Lugares</h2>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31895.95598460346!2d-79.90436165222411!3d-2.1557846107990914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6daf3107e6ad%3A0xa95dbce321c66e63!2sLa%20Fuerza%20A%C3%A9rea%20Ecuatoriana%2C%20Guayaquil%2C%20Ecuador!5e0!3m2!1ses-419!2sus!4v1716217247248!5m2!1ses-419!2sus"
-        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/v6kEanzJhpg?si=s_60l5-TM-BepxJt"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
 
     <footer>
-        <p>Copyright © 2023 Juan Péres</p>
+        <p>Copyright © 2024 Guido Flores</p>
     </footer>
 </body>
 
 
 
 </html>
+
+
+<!--margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding: 2% 1.2%;
+    box-shadow: 
+   rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+   rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+   rgba(0, 0, 0, 0.12) 0px 4px 6px,
+   rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+   rgba(0, 0, 0, 0.09) 0px -3px 5px; -->

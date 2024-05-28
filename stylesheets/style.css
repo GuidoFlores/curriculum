@@ -2,6 +2,28 @@
 
 *{
   font-family: Arial, sans-serif; 
+  background-color: #fffffe;
+}
+
+body{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+#contenedor-foto{
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+}
+
+img{
+    width: 25%;
+
+}
+
+#navegador{
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 
 .titulo{
@@ -16,32 +38,20 @@ h1, h2, h3 {
     font-family: 'Freeman';
 }
 
-#educacion {
-    background-color: #232946;
-}
-
-#educacion > h2{
-    color: #fffffe;
-}
-
-#educacion p{
-    color: #b8c1ec;
+#informacion-personal{
+    grid-column: 1/2;
 }
 
 #educacion{
-    margin: 20px;
+   
 }
 
-#educacion{
-    margin-top: 10px;
-    margin-right: 20px;
-    margin-bottom: 30px;
-    margin-left: 40px;
-    padding: 2% 1.2%;
-    box-shadow: 
-   rgba(0, 0, 0, 0.25) 0px 54px 55px, 
-   rgba(0, 0, 0, 0.12) 0px -12px 30px, 
-   rgba(0, 0, 0, 0.12) 0px 4px 6px,
-   rgba(0, 0, 0, 0.17) 0px 12px 13px, 
-   rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+#experiencia{
+    grid-column: 1/2;
 }
+
+#habilidades{
+    grid-column: 1/2;
+}
+
+
