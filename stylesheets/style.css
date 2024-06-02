@@ -176,7 +176,8 @@ label{
 
 .contenedor-final{
     display: flex;
-    column-gap: 10%;
+    column-gap: 15%;
+    flex-wrap: wrap;
     padding: 4%;
 }
 
