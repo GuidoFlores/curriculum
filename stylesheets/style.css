@@ -6,91 +6,61 @@
 }
 
 body{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: "encabezado encabezado encabezado encabezado encabezado encabezado"
-                         "nav1 nav2 nav3 nav4 nada nada"
-                         "info info info info info info"
-                         "educacion educacion educacion educacion educacion educacion"
-                         "experiencia experiencia experiencia experiencia experiencia experiencia"
-                         "habilidades habilidades habilidades habilidades habilidades habilidades"
-                         "exp-lab exp-lab exp-lab exp-lab exp-lab exp-lab"
-                         "formulario formulario formulario formulario formulario formulario"
-                         "referencias referencias referencias referencias referencias referencias"
-                         "footer footer footer footer footer footer";
-}
-
-.foto{
-    width: 60%;
-    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .contenedor-encabezado{
-    grid-area: encabezado;
-    display: grid;
-    grid-template-columns: auto 1fr;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    background-color: aquamarine;
-    padding: 0px;
-    box-sizing: border-box;
+    background-color: #5d9279;
 }
 
 header{
-    background-color: aquamarine;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #5d9279;
     text-align: center;
 }
 
-#encabezado, #nombre{
-    font-size: 50px;
-    margin: 0;
-    padding: 10px 0;
+.contenedor-encabezado #foto{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#nombre-completo{
+    background: none;
+    background-color: #5d9279;
+    flex-grow: 100;
+    font-size: 300%;
+}
+
+header > h2 {
+    flex-grow: 1;
+    font-size: 500;
+}
+
+#navegador{
+    display: flex;
+    flex-direction: row;
+    background-color: #d9e4d8;
+}
+
+#navegador > ul{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 100;
+    column-gap: 25%;
     background: none;
 }
 
-#seccion-info{
-    grid-area: nav1;
+#navegador a{
+    row-gap: 1.5rem;
+    background: none;
+    background-color: #d9e4d8;
 }
-#seccion-educacion{
-    grid-area: nav2;
-}
-#seccion-experiencia{
-    grid-area: nav3;
-}
-#seccion-habilidades{
-    grid-area: nav4;
-}
-
-#educacion{
-    grid-area: educacion;
-}
-#informacion-personal{
-    grid-area: info;
-}
-#experiencia{
-    grid-area: experiencia;
-}
-#habilidades{
-    grid-area: habilidades;
-}
-#experiencia-laboral{
-    grid-area: exp-lab;
-}
-#formulario{
-    grid-area: formulario;
-}
-#referencias{
-    grid-area: referencias;
-}
-
-
-footer{
-    grid-area: footer;
-}
-.titulo{
-    font-family: 'Times New Roman', serif;
-}
-
 h1{
     font-family: Georgia, serif;
 }
