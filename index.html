@@ -36,9 +36,9 @@
 
 
     <section id="informacion-personal">
-        <div>
+       
             <i class="fa-solid fa-user"></i>
-        </div>
+      
 
         <div>
             <h2>Información personal</h2>
@@ -59,7 +59,7 @@
     </section>
 
     <section id="educacion">
-        <div>
+        <div id="icono">
             <i class="fa-solid fa-graduation-cap"></i>
         </div>
 
@@ -74,11 +74,23 @@
             <p>
                 Fechas: <span>2021 - Actualidad</span>
             </p>
+            <p>
+                Ubicación:
+            </p>
+            <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0151653790826!2d-79.96714432409641!
+            3d-2.1478801978330138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7303bb0133cd%3A0x66c18bd9810f31cb!2sFacultad%20de%
+            20Ingenier%C3%ADa%20en%20Electricidad%20y%20Computaci%C3%B3n%20FIEC%20-%20ESPOL!5e0!3m2!1ses-419!2sec!4v1716858484588!5m2!1ses-419!2sec"
+                    width="1500" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
         </div>
+
+
     </section>
 
     <section id="experiencia">
-        <div>
+        <div id="icono">
             <i class="fa-solid fa-scroll"></i>
         </div>
 
@@ -105,7 +117,7 @@
     </section>
 
     <section id="habilidades">
-        <div>
+        <div id="icono">
             <i class="fa-solid fa-code"></i>
         </div>
 
@@ -123,68 +135,36 @@
         </div>
     </section>
 
-    <!--
-    <section id="experiencia-laboral">
-        <h2>Experiencia laboral</h2>
-        <p>
-            Trabajé como desarrollador web en Acme Corporation durante los últimos
-            tres años.
-            Mis responsabilidades incluían el diseño, desarrollo y mantenimiento
-            de sitios web.
-        </p>
-    </section>-->
+    <div class="contenedor-final">
+        <section id="formulario">
+            <h2>Formulario de contacto</h2>
+            <form action="mailto:tucorreo@ejemplo.com" method="post" enctype="text/plain">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
 
-    <!--table border="1">
-        <thead>
-            <tr>
-                <th>Empresa</th>
-                <th>Puesto</th>
-                <th>Años de experiencia</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Acme Corporation</td>
-                <td>Desarrollador web</td>
-                <td>3</td>
-            </tr>
-        </tbody>
-    </table-->
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required><br><br>
 
-    <section id="formulario">
-        <h2>Danos tu opinión</h2>
-        <form action="mailto:tucorreo@ejemplo.com" method="post" enctype="text/plain">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required><br><br>
 
-            <label for="correo">Correo Electrónico:</label>
-            <input type="email" id="correo" name="correo" required><br><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="41" required></textarea><br><br>
 
-            <label for="asunto">Asunto:</label>
-            <input type="text" id="asunto" name="asunto" required><br><br>
+                <button type="button">Enviar</button>
+            </form>
+        </section>
 
-            <label for="mensaje">Mensaje:</label><br>
-            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
 
-            <input type="submit" value="Enviar">
-        </form>
-    </section>
-
-    <section id="referencias">
-        <h2>Referencias</h2>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0151653790826!2d-79.96714432409641!
-            3d-2.1478801978330138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7303bb0133cd%3A0x66c18bd9810f31cb!2sFacultad%20de%
-            20Ingenier%C3%ADa%20en%20Electricidad%20y%20Computaci%C3%B3n%20FIEC%20-%20ESPOL!5e0!3m2!1ses-419!2sec!4v1716858484588!5m2!1ses-419!2sec"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/v6kEanzJhpg?si=s_60l5-TM-BepxJt"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </section>
-
+        <section id="referencias">
+            <div id="video">
+                <iframe width="900" height="500" src="https://www.youtube.com/embed/6ktnrKG8uq4?si=3LR906eUWkFdZJKZ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+    </div>
     <footer>
         <p>Copyright © 2024 Guido Flores</p>
     </footer>
