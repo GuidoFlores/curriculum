@@ -54,21 +54,107 @@ header > h2 {
     flex-grow: 100;
     column-gap: 25%;
     background: none;
+    list-style: none;
 }
 
 #navegador a{
+    text-decoration: none;
     row-gap: 1.5rem;
     background: none;
     background-color: #d9e4d8;
+    color: black;
 }
+
+i{
+    font-size: 100px;
+}   
+
+.secciones{
+    display: flex;
+}
+
+#informacion-personal{
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding: 1% 1%;
+    box-shadow: 
+   rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+   rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+   rgba(0, 0, 0, 0.12) 0px 4px 6px,
+   rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+   rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#educacion{
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding: 1% 1%;
+    box-shadow: 
+   rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+   rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+   rgba(0, 0, 0, 0.12) 0px 4px 6px,
+   rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+   rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#experiencia{
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding: 1% 1%;
+    box-shadow: 
+   rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+   rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+   rgba(0, 0, 0, 0.12) 0px 4px 6px,
+   rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+   rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#habilidades{
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding: 1% 1%;
+    box-shadow: 
+   rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+   rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+   rgba(0, 0, 0, 0.12) 0px 4px 6px,
+   rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+   rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
 h1{
     font-family: Georgia, serif;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
 }
 
 h1, h2, h3 {
     font-family: 'Freeman';
 }
-
-
 
 
