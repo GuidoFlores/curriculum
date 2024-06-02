@@ -8,7 +8,8 @@
 body{
     display: flex;
     flex-direction: column;
-}
+    width: 100%;
+}   
 
 .contenedor-encabezado{
     display: flex;
