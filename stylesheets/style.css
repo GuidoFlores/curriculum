@@ -52,6 +52,7 @@ header{
 #navegador > ul{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     flex-grow: 100;
     column-gap: 20%;
     padding: 0% 15%;
@@ -148,6 +149,7 @@ i{
 #formulario{
     padding-left: 10%;
 }
+
 form{
     margin: 0 25px;
     width: 300px;
